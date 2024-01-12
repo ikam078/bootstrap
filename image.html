@@ -8,6 +8,23 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
+<style>
+    .banner{
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/Kanto\ Route\ 1.jpeg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    .banner-content{
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+</style>
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-info sticky-top">
@@ -36,6 +53,16 @@
             </div>
         </div>
     </nav>
+
+    <!-- BANNER -->
+    <div class="container-fluid gx-0">
+        <div class="banner">
+            <div class="banner-content text-white">
+                <h1>Welcome</h1>
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore magni porro eligendi.</h6>
+            </div>
+        </div>
+    </div>
 
     <!-- CARAOUSEL -->
     <div id="carouselExampleCaptions" class="carousel slide">
@@ -83,9 +110,11 @@
         </button>
     </div>
 
-    <!-- clontainer -->
+    <!-- container 1 -->
     <div class="container">
         <h1 class="text-center">character</h1>
+        <p class="text-center d-sm-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium et vitae fugit.</p>
         <div class="container mt-3">
             <div class="row">
                 <div class="col-lg-6 col-md-6 mb-2 col-sm-12">
@@ -120,8 +149,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img src="images/Garchomp Wallpaper for Phone.jpg" alt=""
-                                        class="img-thumbnail">
+                                    <img src="images/Garchomp Wallpaper for Phone.jpg" alt="" class="img-thumbnail">
                                 </div>
                                 <div class="col-md-6">
                                     <h6 class="text-center">Garchomp</h6>
@@ -192,6 +220,25 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- container 2 -->
+    <div class="container">
+        <h2 class="text-center">Details</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni deserunt ea sapiente
+            explicabo voluptas. Magni
+            at vero ipsam quod obcaecati.</p>
+        <div class="row align-items-center bg-info p-4 rounded-3 shadow-lg">
+            <div class="col-md-6">
+                <h4 class="text-center">Detail Character</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus beatae similique facere?
+                    Perferendis ipsam expedita cum dicta ullam praesentium sed.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="images/Pokemon Logo and symbol, meaning, history, PNG, brand.jpg" alt=""
+                    class="w-100 rounded-3 shadow-lg">
             </div>
         </div>
     </div>
